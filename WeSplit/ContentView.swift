@@ -8,17 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let students = ["Harry", "Hermione", "Ron"]
+    
     var body: some View {
-        VStack {
+        VStack{
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+                
+            Text("Hello, World!")
         }
-        .padding()
+
     }
 }
 
 #Preview {
     ContentView()
 }
+
